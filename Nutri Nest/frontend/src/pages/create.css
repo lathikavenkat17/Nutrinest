@@ -1,0 +1,97 @@
+.create-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.search-bar {
+  padding: 10px;
+  border: 2px solid #11204b;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-bar:focus {
+  border-color: #11204b;
+  box-shadow: 0 0 5px #11204b;
+}
+
+.generate-btn {
+  background: #4c9cf2;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.generate-btn:hover {
+  background: linear-gradient(45deg,#445c9b, #11204b);
+}
+
+.ingredient-section {
+  margin-top: 20px;
+}
+
+.ingredient-section h3 {
+  margin: 10px 0;
+  color: #11204b;
+}
+
+.ingredient-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ingredient-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #afdcff;
+  border: 2px solid #4c9cf2;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.ingredient-box:hover {
+  background: #11204b;
+  transform: scale(1.05);
+}
+
+.plus-btn {
+  background: #4c9cf2;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 15px;
+}
+
+.recipe-output {
+  margin-top: 20px;
+  background: #afdcff;
+  padding: 15px; 
+  border-radius: 8px;
+  border-left: 5px solid #11204b;
+  white-space: pre-wrap;
+}
